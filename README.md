@@ -36,19 +36,19 @@ Anleitung:
 4. Notiere die von dir gefundenen Verstöße.<br>
    Die folgende Tabelle dient dabei als Hilfestellung.
 
-   | Nr. | Beschreibung | WCAG-Kriterium | mögliche Fehlerbehebung | Zeile im Quellcode |
-   |-----|--------------|----------------|-------------------------|--------------------|
-   | 1   |              |                |                         |                    |
-   | 2   |              |                |                         |                    |
-   | 3   |              |                |                         |                    |
-   | 4   |              |                |                         |                    |
-   | 5   |              |                |                         |                    |
-   | 6   |              |                |                         |                    |
-   | 7   |              |                |                         |                    |
-   | 8   |              |                |                         |                    |
-   | 9   |              |                |                         |                    |
-   | 10  |              |                |                         |                    |
-   | ... |              |                |                         |                    |
+   | Nr. | Beschreibung                                 | WCAG-Kriterium | mögliche Fehlerbehebung                                                      | Zeile im Quellcode |
+   |-----|----------------------------------------------|----------------|------------------------------------------------------------------------------|--------------------|
+   | 1   | Image ohne alt                               | 2.2 A          | Alt Text hinzufügen                                                          | 90                 |
+   | 2   | Form Element without label                   | 2.2 A          | Label zum Input hinzufügen                                                   | 34                 |
+   | 3   | Background / Foreground Color Contrast       | 2.2 AA         | Farbe fixen                                                                  | 38 - 57            |
+   | 4   | Links nicht erkennbar ohne Farbe             | 2.2 A          | Link unterstreichen oder so                                                  | 91                 |
+   | 5   | html Element hat kein lang Attribut          | 2.2 A          | Lang Attribut festlegen                                                      | 2                  |
+   | 6   | H3 direkt hinter einer H1 ohne H2 dazwischen | Best practice  | H2 einfügen oder H3 zu H2 machen                                             | 64                 |
+   | 7   | Dokument hat kein main                       | Best practice  | Den haupt content in nem main wrappen bzw wrapper zu nem main Element machen | 22                 |
+   | 8   | Header ist kein semantischer header          | Best practice  | Header div zu nem header machen                                              | 23                 |
+   | 9   | Footer ist kein semantischer footer          | Best practice  | Footer div zu nem footer machen                                              | 141                |
+   | 10  | Navbar ist kein nav                          | Best practice  | Nav bar div zu nem nav machen                                                | 38                 |
+   | ... |                                              |                |                                                                              |                    |
     
 ### Hilfreiche Links:
 
